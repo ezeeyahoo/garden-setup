@@ -351,7 +351,7 @@ validation:
                   - versions
                   - - list
                     - - and
-                      - ["mapfield", "guestId"]
+                      - ["optionalfield", "guestId"]
                       - ["mapfield", "path"]
                       - ["mapfield", "version"]
           - - optionalfield
@@ -369,7 +369,7 @@ validation:
                 - ["mapfield", "vsphereHost"]
                 - ["mapfield", "vsphereInsecureSSL", ["type", "bool"]]
                 - ["mapfield", "nsxtHost"]
-                - ["mapfield", "nsxtInsecureSSL", ["type", "bool"]]
+                - ["optionalfield", "nsxtInsecureSSL", ["type", "bool"]]
                 - ["optionalfield", "nsxtRemoteAuth", ["type", "bool"]]
                 - ["mapfield", "transportZone"]
                 - ["mapfield", "logicalTier0Router"]
